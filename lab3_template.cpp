@@ -40,11 +40,6 @@ public:
         // реализация здесь
     }
 
-    const int & operator[](std::size_t idx) const
-    {
-        // реализация здесь
-    }
-
     int & operator[](std::size_t idx)
     {
         // реализация здесь
