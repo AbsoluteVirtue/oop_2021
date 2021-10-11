@@ -40,12 +40,17 @@ public:
         // реализация здесь
     }
 
-    int & operator[](std::size_t idx)
+    int & operator[](unsigned int idx)
     {
         // реализация здесь
     }
 
-    Vector & operator+=(const Vector & rhs)
+    Vector & operator+=(const int val)
+    {
+        // реализация здесь
+    }
+
+    friend Vector operator+(Vector lhs, const int rhs)
     {
         // реализация здесь
     }
