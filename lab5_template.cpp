@@ -1,11 +1,24 @@
 #include <iostream>
- 
-class Vector
+
+class Iterable
+{
+
+protected:
+    unsigned int _size;
+    // int _list; список заданного типа
+};
+
+class Vector : public Iterable
 {
     // реализация
 };
 
-class Queue : public Vector
+class Deque : public Iterable
+{
+    // реализация
+};
+
+class Queue : public Vector, public Deque
 {
     // реализация
 };
@@ -35,7 +48,7 @@ public:
     }
 
     const int &
-    tail() 
+    tail()
     {
         // реализация
     }
@@ -49,7 +62,7 @@ public:
 
 class Producer
 {
-    Vector values;
+    Deque values;
     unsigned int size{0};
 
 public:
@@ -64,13 +77,13 @@ public:
             for (unsigned int i = 0; i < size; i++)
             {
                 std::cin >> val;
-                values += val;
+                values + val;
             }
         }
     }
 
     bool
-    produce(Feed & feed)
+    produce(Feed &feed)
     {
         if (!size)
             return false;
@@ -90,12 +103,12 @@ public:
     Consumer() {}
 
     bool
-    consume(Feed & feed)
+    consume(Feed &feed)
     {
         if (feed.empty())
             return false;
 
-        values += feed.head();
+        values + feed.head();
         feed.pop();
 
         return true;
