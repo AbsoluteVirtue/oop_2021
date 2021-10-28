@@ -2,7 +2,8 @@
  
 class Vector
 {
-    // реализация
+    unsigned int _size;
+    // int _list; список заданного типа
 };
 
 class Queue : public Vector
