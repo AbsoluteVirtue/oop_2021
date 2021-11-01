@@ -2,5 +2,1663 @@
     "method": "GET",
     "content_type": "application/json",
     "content_encoding": "utf-8",
-    "data": []
+    "total_count": 276,
+    "data": [
+        {
+            "Code": "0001",
+            "Birthplace": "At sea",
+            "Census_night_population_count": 15,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "1000",
+            "Birthplace": "Oceania and Antarctica (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "1101",
+            "Birthplace": "Australia",
+            "Census_night_population_count": 83622,
+            "Census_usually_resident_population_count": 75696
+        },
+        {
+            "Code": "1102",
+            "Birthplace": "Norfolk Island",
+            "Census_night_population_count": 114,
+            "Census_usually_resident_population_count": 108
+        },
+        {
+            "Code": "1199",
+            "Birthplace": "Australian External Territories nec",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "1201",
+            "Birthplace": "New Zealand",
+            "Census_night_population_count": 3378357,
+            "Census_usually_resident_population_count": 3370122
+        },
+        {
+            "Code": "1300",
+            "Birthplace": "Melanesia (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "1301",
+            "Birthplace": "New Caledonia",
+            "Census_night_population_count": 381,
+            "Census_usually_resident_population_count": 318
+        },
+        {
+            "Code": "1302",
+            "Birthplace": "Papua New Guinea",
+            "Census_night_population_count": 1587,
+            "Census_usually_resident_population_count": 1482
+        },
+        {
+            "Code": "1303",
+            "Birthplace": "Solomon Islands",
+            "Census_night_population_count": 1059,
+            "Census_usually_resident_population_count": 741
+        },
+        {
+            "Code": "1304",
+            "Birthplace": "Vanuatu",
+            "Census_night_population_count": 2274,
+            "Census_usually_resident_population_count": 1206
+        },
+        {
+            "Code": "1401",
+            "Birthplace": "Guam",
+            "Census_night_population_count": 54,
+            "Census_usually_resident_population_count": 51
+        },
+        {
+            "Code": "1402",
+            "Birthplace": "Kiribati",
+            "Census_night_population_count": 2262,
+            "Census_usually_resident_population_count": 2196
+        },
+        {
+            "Code": "1403",
+            "Birthplace": "Marshall Islands",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 21
+        },
+        {
+            "Code": "1404",
+            "Birthplace": "Micronesia, Federated States of",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 21
+        },
+        {
+            "Code": "1405",
+            "Birthplace": "Nauru",
+            "Census_night_population_count": 315,
+            "Census_usually_resident_population_count": 312
+        },
+        {
+            "Code": "1406",
+            "Birthplace": "Northern Mariana Islands",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 21
+        },
+        {
+            "Code": "1407",
+            "Birthplace": "Palau",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 12
+        },
+        {
+            "Code": "1500",
+            "Birthplace": "Polynesia (excludes Hawaii) (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "1501",
+            "Birthplace": "Cook Islands",
+            "Census_night_population_count": 12069,
+            "Census_usually_resident_population_count": 11925
+        },
+        {
+            "Code": "1502",
+            "Birthplace": "Fiji",
+            "Census_night_population_count": 63015,
+            "Census_usually_resident_population_count": 62310
+        },
+        {
+            "Code": "1503",
+            "Birthplace": "French Polynesia",
+            "Census_night_population_count": 609,
+            "Census_usually_resident_population_count": 474
+        },
+        {
+            "Code": "1504",
+            "Birthplace": "Niue",
+            "Census_night_population_count": 4008,
+            "Census_usually_resident_population_count": 3972
+        },
+        {
+            "Code": "1505",
+            "Birthplace": "Samoa",
+            "Census_night_population_count": 56814,
+            "Census_usually_resident_population_count": 55512
+        },
+        {
+            "Code": "1506",
+            "Birthplace": "Samoa, American",
+            "Census_night_population_count": 882,
+            "Census_usually_resident_population_count": 861
+        },
+        {
+            "Code": "1507",
+            "Birthplace": "Tokelau",
+            "Census_night_population_count": 1263,
+            "Census_usually_resident_population_count": 1251
+        },
+        {
+            "Code": "1508",
+            "Birthplace": "Tonga",
+            "Census_night_population_count": 27777,
+            "Census_usually_resident_population_count": 26856
+        },
+        {
+            "Code": "1511",
+            "Birthplace": "Tuvalu",
+            "Census_night_population_count": 1866,
+            "Census_usually_resident_population_count": 1854
+        },
+        {
+            "Code": "1512",
+            "Birthplace": "Wallis and Futuna",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 18
+        },
+        {
+            "Code": "1513",
+            "Birthplace": "Pitcairn Island",
+            "Census_night_population_count": 48,
+            "Census_usually_resident_population_count": 48
+        },
+        {
+            "Code": "1599",
+            "Birthplace": "Polynesia (excludes Hawaii) nec",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "1601",
+            "Birthplace": "Antarctica",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "2000",
+            "Birthplace": "North-West Europe (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "2100",
+            "Birthplace": "United Kingdom (not further defined)",
+            "Census_night_population_count": 15144,
+            "Census_usually_resident_population_count": 14601
+        },
+        {
+            "Code": "2101",
+            "Birthplace": "Channel Islands",
+            "Census_night_population_count": 1053,
+            "Census_usually_resident_population_count": 1008
+        },
+        {
+            "Code": "2102",
+            "Birthplace": "England",
+            "Census_night_population_count": 223893,
+            "Census_usually_resident_population_count": 210915
+        },
+        {
+            "Code": "2103",
+            "Birthplace": "Isle of Man",
+            "Census_night_population_count": 330,
+            "Census_usually_resident_population_count": 306
+        },
+        {
+            "Code": "2104",
+            "Birthplace": "Northern Ireland",
+            "Census_night_population_count": 5043,
+            "Census_usually_resident_population_count": 4806
+        },
+        {
+            "Code": "2105",
+            "Birthplace": "Scotland",
+            "Census_night_population_count": 27387,
+            "Census_usually_resident_population_count": 26136
+        },
+        {
+            "Code": "2106",
+            "Birthplace": "Wales",
+            "Census_night_population_count": 8289,
+            "Census_usually_resident_population_count": 7776
+        },
+        {
+            "Code": "2201",
+            "Birthplace": "Ireland",
+            "Census_night_population_count": 11139,
+            "Census_usually_resident_population_count": 10494
+        },
+        {
+            "Code": "2300",
+            "Birthplace": "Western Europe (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "2301",
+            "Birthplace": "Austria",
+            "Census_night_population_count": 1869,
+            "Census_usually_resident_population_count": 1491
+        },
+        {
+            "Code": "2302",
+            "Birthplace": "Belgium",
+            "Census_night_population_count": 1692,
+            "Census_usually_resident_population_count": 1257
+        },
+        {
+            "Code": "2303",
+            "Birthplace": "France",
+            "Census_night_population_count": 10302,
+            "Census_usually_resident_population_count": 7593
+        },
+        {
+            "Code": "2304",
+            "Birthplace": "Germany",
+            "Census_night_population_count": 24339,
+            "Census_usually_resident_population_count": 16605
+        },
+        {
+            "Code": "2305",
+            "Birthplace": "Liechtenstein",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "2306",
+            "Birthplace": "Luxembourg",
+            "Census_night_population_count": 93,
+            "Census_usually_resident_population_count": 66
+        },
+        {
+            "Code": "2307",
+            "Birthplace": "Monaco",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 18
+        },
+        {
+            "Code": "2308",
+            "Birthplace": "Netherlands",
+            "Census_night_population_count": 21333,
+            "Census_usually_resident_population_count": 19329
+        },
+        {
+            "Code": "2311",
+            "Birthplace": "Switzerland",
+            "Census_night_population_count": 4239,
+            "Census_usually_resident_population_count": 3291
+        },
+        {
+            "Code": "2400",
+            "Birthplace": "Northern Europe (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "2401",
+            "Birthplace": "Denmark",
+            "Census_night_population_count": 2214,
+            "Census_usually_resident_population_count": 1563
+        },
+        {
+            "Code": "2402",
+            "Birthplace": "Faeroe Islands",
+            "Census_night_population_count": 15,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "2403",
+            "Birthplace": "Finland",
+            "Census_night_population_count": 888,
+            "Census_usually_resident_population_count": 702
+        },
+        {
+            "Code": "2404",
+            "Birthplace": "Greenland",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 12
+        },
+        {
+            "Code": "2405",
+            "Birthplace": "Iceland",
+            "Census_night_population_count": 144,
+            "Census_usually_resident_population_count": 120
+        },
+        {
+            "Code": "2406",
+            "Birthplace": "Norway",
+            "Census_night_population_count": 777,
+            "Census_usually_resident_population_count": 567
+        },
+        {
+            "Code": "2407",
+            "Birthplace": "Sweden",
+            "Census_night_population_count": 2499,
+            "Census_usually_resident_population_count": 1839
+        },
+        {
+            "Code": "3000",
+            "Birthplace": "Southern and Eastern Europe (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "3100",
+            "Birthplace": "Southern Europe (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "3101",
+            "Birthplace": "Andorra",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "3102",
+            "Birthplace": "Gibraltar",
+            "Census_night_population_count": 81,
+            "Census_usually_resident_population_count": 81
+        },
+        {
+            "Code": "3103",
+            "Birthplace": "Vatican City State",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "3104",
+            "Birthplace": "Italy",
+            "Census_night_population_count": 3714,
+            "Census_usually_resident_population_count": 3219
+        },
+        {
+            "Code": "3105",
+            "Birthplace": "Malta",
+            "Census_night_population_count": 447,
+            "Census_usually_resident_population_count": 396
+        },
+        {
+            "Code": "3106",
+            "Birthplace": "Portugal",
+            "Census_night_population_count": 507,
+            "Census_usually_resident_population_count": 447
+        },
+        {
+            "Code": "3107",
+            "Birthplace": "San Marino",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "3108",
+            "Birthplace": "Spain",
+            "Census_night_population_count": 1800,
+            "Census_usually_resident_population_count": 1500
+        },
+        {
+            "Code": "3200",
+            "Birthplace": "South Eastern Europe (not further defined)",
+            "Census_night_population_count": 726,
+            "Census_usually_resident_population_count": 714
+        },
+        {
+            "Code": "3201",
+            "Birthplace": "Albania",
+            "Census_night_population_count": 132,
+            "Census_usually_resident_population_count": 123
+        },
+        {
+            "Code": "3202",
+            "Birthplace": "Bosnia and Herzegovina",
+            "Census_night_population_count": 414,
+            "Census_usually_resident_population_count": 396
+        },
+        {
+            "Code": "3203",
+            "Birthplace": "Bulgaria",
+            "Census_night_population_count": 888,
+            "Census_usually_resident_population_count": 849
+        },
+        {
+            "Code": "3204",
+            "Birthplace": "Croatia",
+            "Census_night_population_count": 1818,
+            "Census_usually_resident_population_count": 1767
+        },
+        {
+            "Code": "3205",
+            "Birthplace": "Cyprus",
+            "Census_night_population_count": 408,
+            "Census_usually_resident_population_count": 384
+        },
+        {
+            "Code": "3206",
+            "Birthplace": "North Macedonia",
+            "Census_night_population_count": 843,
+            "Census_usually_resident_population_count": 822
+        },
+        {
+            "Code": "3207",
+            "Birthplace": "Greece",
+            "Census_night_population_count": 1008,
+            "Census_usually_resident_population_count": 960
+        },
+        {
+            "Code": "3208",
+            "Birthplace": "Moldova",
+            "Census_night_population_count": 159,
+            "Census_usually_resident_population_count": 156
+        },
+        {
+            "Code": "3211",
+            "Birthplace": "Romania",
+            "Census_night_population_count": 2448,
+            "Census_usually_resident_population_count": 2340
+        },
+        {
+            "Code": "3212",
+            "Birthplace": "Slovenia",
+            "Census_night_population_count": 369,
+            "Census_usually_resident_population_count": 330
+        },
+        {
+            "Code": "3214",
+            "Birthplace": "Montenegro",
+            "Census_night_population_count": 48,
+            "Census_usually_resident_population_count": 48
+        },
+        {
+            "Code": "3215",
+            "Birthplace": "Serbia",
+            "Census_night_population_count": 1203,
+            "Census_usually_resident_population_count": 1170
+        },
+        {
+            "Code": "3216",
+            "Birthplace": "Kosovo",
+            "Census_night_population_count": 255,
+            "Census_usually_resident_population_count": 249
+        },
+        {
+            "Code": "3300",
+            "Birthplace": "Eastern Europe (not further defined)",
+            "Census_night_population_count": 165,
+            "Census_usually_resident_population_count": 147
+        },
+        {
+            "Code": "3301",
+            "Birthplace": "Belarus",
+            "Census_night_population_count": 354,
+            "Census_usually_resident_population_count": 333
+        },
+        {
+            "Code": "3302",
+            "Birthplace": "Czechia",
+            "Census_night_population_count": 2703,
+            "Census_usually_resident_population_count": 2361
+        },
+        {
+            "Code": "3303",
+            "Birthplace": "Estonia",
+            "Census_night_population_count": 279,
+            "Census_usually_resident_population_count": 246
+        },
+        {
+            "Code": "3304",
+            "Birthplace": "Hungary",
+            "Census_night_population_count": 1734,
+            "Census_usually_resident_population_count": 1626
+        },
+        {
+            "Code": "3305",
+            "Birthplace": "Latvia",
+            "Census_night_population_count": 405,
+            "Census_usually_resident_population_count": 375
+        },
+        {
+            "Code": "3306",
+            "Birthplace": "Lithuania",
+            "Census_night_population_count": 351,
+            "Census_usually_resident_population_count": 300
+        },
+        {
+            "Code": "3307",
+            "Birthplace": "Poland",
+            "Census_night_population_count": 2685,
+            "Census_usually_resident_population_count": 2442
+        },
+        {
+            "Code": "3308",
+            "Birthplace": "Russia",
+            "Census_night_population_count": 7998,
+            "Census_usually_resident_population_count": 7776
+        },
+        {
+            "Code": "3311",
+            "Birthplace": "Slovakia",
+            "Census_night_population_count": 627,
+            "Census_usually_resident_population_count": 558
+        },
+        {
+            "Code": "3312",
+            "Birthplace": "Ukraine",
+            "Census_night_population_count": 2010,
+            "Census_usually_resident_population_count": 1941
+        },
+        {
+            "Code": "4000",
+            "Birthplace": "North Africa and the Middle East (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "4100",
+            "Birthplace": "North Africa (not further defined)",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "4101",
+            "Birthplace": "Algeria",
+            "Census_night_population_count": 165,
+            "Census_usually_resident_population_count": 153
+        },
+        {
+            "Code": "4102",
+            "Birthplace": "Egypt",
+            "Census_night_population_count": 1740,
+            "Census_usually_resident_population_count": 1713
+        },
+        {
+            "Code": "4103",
+            "Birthplace": "Libya",
+            "Census_night_population_count": 174,
+            "Census_usually_resident_population_count": 168
+        },
+        {
+            "Code": "4104",
+            "Birthplace": "Morocco",
+            "Census_night_population_count": 222,
+            "Census_usually_resident_population_count": 204
+        },
+        {
+            "Code": "4105",
+            "Birthplace": "Sudan",
+            "Census_night_population_count": 549,
+            "Census_usually_resident_population_count": 543
+        },
+        {
+            "Code": "4106",
+            "Birthplace": "Tunisia",
+            "Census_night_population_count": 84,
+            "Census_usually_resident_population_count": 81
+        },
+        {
+            "Code": "4107",
+            "Birthplace": "Western Sahara",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "4108",
+            "Birthplace": "Spanish North Africa",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "4111",
+            "Birthplace": "South Sudan",
+            "Census_night_population_count": 81,
+            "Census_usually_resident_population_count": 81
+        },
+        {
+            "Code": "4200",
+            "Birthplace": "Middle East (not further defined)",
+            "Census_night_population_count": 138,
+            "Census_usually_resident_population_count": 135
+        },
+        {
+            "Code": "4201",
+            "Birthplace": "Bahrain",
+            "Census_night_population_count": 354,
+            "Census_usually_resident_population_count": 345
+        },
+        {
+            "Code": "4202",
+            "Birthplace": "Gaza Strip/Palestine/West Bank",
+            "Census_night_population_count": 246,
+            "Census_usually_resident_population_count": 234
+        },
+        {
+            "Code": "4203",
+            "Birthplace": "Iran",
+            "Census_night_population_count": 4659,
+            "Census_usually_resident_population_count": 4563
+        },
+        {
+            "Code": "4204",
+            "Birthplace": "Iraq",
+            "Census_night_population_count": 5784,
+            "Census_usually_resident_population_count": 5757
+        },
+        {
+            "Code": "4205",
+            "Birthplace": "Israel",
+            "Census_night_population_count": 1335,
+            "Census_usually_resident_population_count": 1095
+        },
+        {
+            "Code": "4206",
+            "Birthplace": "Jordan",
+            "Census_night_population_count": 756,
+            "Census_usually_resident_population_count": 744
+        },
+        {
+            "Code": "4207",
+            "Birthplace": "Kuwait",
+            "Census_night_population_count": 768,
+            "Census_usually_resident_population_count": 759
+        },
+        {
+            "Code": "4208",
+            "Birthplace": "Lebanon",
+            "Census_night_population_count": 573,
+            "Census_usually_resident_population_count": 561
+        },
+        {
+            "Code": "4211",
+            "Birthplace": "Oman",
+            "Census_night_population_count": 426,
+            "Census_usually_resident_population_count": 402
+        },
+        {
+            "Code": "4212",
+            "Birthplace": "Qatar",
+            "Census_night_population_count": 222,
+            "Census_usually_resident_population_count": 213
+        },
+        {
+            "Code": "4213",
+            "Birthplace": "Saudi Arabia",
+            "Census_night_population_count": 1935,
+            "Census_usually_resident_population_count": 1848
+        },
+        {
+            "Code": "4214",
+            "Birthplace": "Syria",
+            "Census_night_population_count": 1338,
+            "Census_usually_resident_population_count": 1329
+        },
+        {
+            "Code": "4215",
+            "Birthplace": "Turkey",
+            "Census_night_population_count": 1161,
+            "Census_usually_resident_population_count": 1134
+        },
+        {
+            "Code": "4216",
+            "Birthplace": "United Arab Emirates",
+            "Census_night_population_count": 1650,
+            "Census_usually_resident_population_count": 1626
+        },
+        {
+            "Code": "4217",
+            "Birthplace": "Yemen",
+            "Census_night_population_count": 147,
+            "Census_usually_resident_population_count": 144
+        },
+        {
+            "Code": "5000",
+            "Birthplace": "South-East Asia (not further defined)",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "5100",
+            "Birthplace": "Mainland South-East Asia (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "5101",
+            "Birthplace": "Myanmar",
+            "Census_night_population_count": 2988,
+            "Census_usually_resident_population_count": 2946
+        },
+        {
+            "Code": "5102",
+            "Birthplace": "Cambodia",
+            "Census_night_population_count": 7776,
+            "Census_usually_resident_population_count": 7689
+        },
+        {
+            "Code": "5103",
+            "Birthplace": "Laos",
+            "Census_night_population_count": 981,
+            "Census_usually_resident_population_count": 948
+        },
+        {
+            "Code": "5104",
+            "Birthplace": "Thailand",
+            "Census_night_population_count": 10986,
+            "Census_usually_resident_population_count": 10251
+        },
+        {
+            "Code": "5105",
+            "Birthplace": "Viet Nam",
+            "Census_night_population_count": 9552,
+            "Census_usually_resident_population_count": 9291
+        },
+        {
+            "Code": "5200",
+            "Birthplace": "Maritime South-East Asia (not further defined)",
+            "Census_night_population_count": 24,
+            "Census_usually_resident_population_count": 24
+        },
+        {
+            "Code": "5201",
+            "Birthplace": "Brunei Darussalam",
+            "Census_night_population_count": 402,
+            "Census_usually_resident_population_count": 399
+        },
+        {
+            "Code": "5202",
+            "Birthplace": "Indonesia",
+            "Census_night_population_count": 7335,
+            "Census_usually_resident_population_count": 6627
+        },
+        {
+            "Code": "5203",
+            "Birthplace": "Malaysia",
+            "Census_night_population_count": 20901,
+            "Census_usually_resident_population_count": 19860
+        },
+        {
+            "Code": "5204",
+            "Birthplace": "Philippines",
+            "Census_night_population_count": 69036,
+            "Census_usually_resident_population_count": 67632
+        },
+        {
+            "Code": "5205",
+            "Birthplace": "Singapore",
+            "Census_night_population_count": 7122,
+            "Census_usually_resident_population_count": 6741
+        },
+        {
+            "Code": "5206",
+            "Birthplace": "Timor-Leste",
+            "Census_night_population_count": 84,
+            "Census_usually_resident_population_count": 81
+        },
+        {
+            "Code": "6100",
+            "Birthplace": "North-East Asia (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "6101",
+            "Birthplace": "China, People's Republic of",
+            "Census_night_population_count": 141387,
+            "Census_usually_resident_population_count": 132906
+        },
+        {
+            "Code": "6102",
+            "Birthplace": "Hong Kong (Special Administrative Region)",
+            "Census_night_population_count": 11505,
+            "Census_usually_resident_population_count": 10992
+        },
+        {
+            "Code": "6103",
+            "Birthplace": "Japan",
+            "Census_night_population_count": 15579,
+            "Census_usually_resident_population_count": 13107
+        },
+        {
+            "Code": "6104",
+            "Birthplace": "Korea, Democratic People's Republic of",
+            "Census_night_population_count": 18,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "6105",
+            "Birthplace": "Korea, Republic of",
+            "Census_night_population_count": 31884,
+            "Census_usually_resident_population_count": 30975
+        },
+        {
+            "Code": "6106",
+            "Birthplace": "Macau (Special Administrative Region)",
+            "Census_night_population_count": 321,
+            "Census_usually_resident_population_count": 306
+        },
+        {
+            "Code": "6107",
+            "Birthplace": "Mongolia",
+            "Census_night_population_count": 117,
+            "Census_usually_resident_population_count": 105
+        },
+        {
+            "Code": "6108",
+            "Birthplace": "Taiwan",
+            "Census_night_population_count": 11151,
+            "Census_usually_resident_population_count": 10440
+        },
+        {
+            "Code": "7000",
+            "Birthplace": "Southern and Central Asia (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "7100",
+            "Birthplace": "Southern Asia (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "7101",
+            "Birthplace": "Bangladesh",
+            "Census_night_population_count": 2601,
+            "Census_usually_resident_population_count": 2559
+        },
+        {
+            "Code": "7102",
+            "Birthplace": "Bhutan",
+            "Census_night_population_count": 714,
+            "Census_usually_resident_population_count": 714
+        },
+        {
+            "Code": "7103",
+            "Birthplace": "India",
+            "Census_night_population_count": 120111,
+            "Census_usually_resident_population_count": 117348
+        },
+        {
+            "Code": "7104",
+            "Birthplace": "Maldives",
+            "Census_night_population_count": 120,
+            "Census_usually_resident_population_count": 120
+        },
+        {
+            "Code": "7105",
+            "Birthplace": "Nepal",
+            "Census_night_population_count": 3741,
+            "Census_usually_resident_population_count": 3681
+        },
+        {
+            "Code": "7106",
+            "Birthplace": "Pakistan",
+            "Census_night_population_count": 5784,
+            "Census_usually_resident_population_count": 5691
+        },
+        {
+            "Code": "7107",
+            "Birthplace": "Sri Lanka",
+            "Census_night_population_count": 14625,
+            "Census_usually_resident_population_count": 14349
+        },
+        {
+            "Code": "7200",
+            "Birthplace": "Central Asia (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "7201",
+            "Birthplace": "Afghanistan",
+            "Census_night_population_count": 3753,
+            "Census_usually_resident_population_count": 3744
+        },
+        {
+            "Code": "7202",
+            "Birthplace": "Armenia",
+            "Census_night_population_count": 78,
+            "Census_usually_resident_population_count": 78
+        },
+        {
+            "Code": "7203",
+            "Birthplace": "Azerbaijan",
+            "Census_night_population_count": 93,
+            "Census_usually_resident_population_count": 90
+        },
+        {
+            "Code": "7204",
+            "Birthplace": "Georgia",
+            "Census_night_population_count": 93,
+            "Census_usually_resident_population_count": 93
+        },
+        {
+            "Code": "7205",
+            "Birthplace": "Kazakhstan",
+            "Census_night_population_count": 675,
+            "Census_usually_resident_population_count": 648
+        },
+        {
+            "Code": "7206",
+            "Birthplace": "Kyrgyzstan",
+            "Census_night_population_count": 108,
+            "Census_usually_resident_population_count": 105
+        },
+        {
+            "Code": "7207",
+            "Birthplace": "Tajikistan",
+            "Census_night_population_count": 45,
+            "Census_usually_resident_population_count": 42
+        },
+        {
+            "Code": "7208",
+            "Birthplace": "Turkmenistan",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 21
+        },
+        {
+            "Code": "7211",
+            "Birthplace": "Uzbekistan",
+            "Census_night_population_count": 294,
+            "Census_usually_resident_population_count": 285
+        },
+        {
+            "Code": "8000",
+            "Birthplace": "The Americas (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "8100",
+            "Birthplace": "Northern America (not further defined)",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "8101",
+            "Birthplace": "Bermuda",
+            "Census_night_population_count": 243,
+            "Census_usually_resident_population_count": 240
+        },
+        {
+            "Code": "8102",
+            "Birthplace": "Canada",
+            "Census_night_population_count": 14682,
+            "Census_usually_resident_population_count": 11928
+        },
+        {
+            "Code": "8103",
+            "Birthplace": "St Pierre and Miquelon",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "8104",
+            "Birthplace": "United States of America",
+            "Census_night_population_count": 35286,
+            "Census_usually_resident_population_count": 27678
+        },
+        {
+            "Code": "8200",
+            "Birthplace": "South America (not further defined)",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 18
+        },
+        {
+            "Code": "8201",
+            "Birthplace": "Argentina",
+            "Census_night_population_count": 4056,
+            "Census_usually_resident_population_count": 3447
+        },
+        {
+            "Code": "8202",
+            "Birthplace": "Bolivia",
+            "Census_night_population_count": 195,
+            "Census_usually_resident_population_count": 186
+        },
+        {
+            "Code": "8203",
+            "Birthplace": "Brazil",
+            "Census_night_population_count": 8157,
+            "Census_usually_resident_population_count": 7719
+        },
+        {
+            "Code": "8204",
+            "Birthplace": "Chile",
+            "Census_night_population_count": 4179,
+            "Census_usually_resident_population_count": 3936
+        },
+        {
+            "Code": "8205",
+            "Birthplace": "Colombia",
+            "Census_night_population_count": 2709,
+            "Census_usually_resident_population_count": 2583
+        },
+        {
+            "Code": "8206",
+            "Birthplace": "Ecuador",
+            "Census_night_population_count": 270,
+            "Census_usually_resident_population_count": 258
+        },
+        {
+            "Code": "8207",
+            "Birthplace": "Falkland Islands",
+            "Census_night_population_count": 135,
+            "Census_usually_resident_population_count": 135
+        },
+        {
+            "Code": "8208",
+            "Birthplace": "French Guiana",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "8211",
+            "Birthplace": "Guyana",
+            "Census_night_population_count": 117,
+            "Census_usually_resident_population_count": 108
+        },
+        {
+            "Code": "8212",
+            "Birthplace": "Paraguay",
+            "Census_night_population_count": 60,
+            "Census_usually_resident_population_count": 54
+        },
+        {
+            "Code": "8213",
+            "Birthplace": "Peru",
+            "Census_night_population_count": 981,
+            "Census_usually_resident_population_count": 933
+        },
+        {
+            "Code": "8214",
+            "Birthplace": "Suriname",
+            "Census_night_population_count": 33,
+            "Census_usually_resident_population_count": 24
+        },
+        {
+            "Code": "8215",
+            "Birthplace": "Uruguay",
+            "Census_night_population_count": 906,
+            "Census_usually_resident_population_count": 849
+        },
+        {
+            "Code": "8216",
+            "Birthplace": "Venezuela",
+            "Census_night_population_count": 435,
+            "Census_usually_resident_population_count": 423
+        },
+        {
+            "Code": "8299",
+            "Birthplace": "South America nec",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "8300",
+            "Birthplace": "Central America (not further defined)",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "8301",
+            "Birthplace": "Belize",
+            "Census_night_population_count": 18,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "8302",
+            "Birthplace": "Costa Rica",
+            "Census_night_population_count": 90,
+            "Census_usually_resident_population_count": 81
+        },
+        {
+            "Code": "8303",
+            "Birthplace": "El Salvador",
+            "Census_night_population_count": 105,
+            "Census_usually_resident_population_count": 102
+        },
+        {
+            "Code": "8304",
+            "Birthplace": "Guatemala",
+            "Census_night_population_count": 90,
+            "Census_usually_resident_population_count": 90
+        },
+        {
+            "Code": "8305",
+            "Birthplace": "Honduras",
+            "Census_night_population_count": 54,
+            "Census_usually_resident_population_count": 48
+        },
+        {
+            "Code": "8306",
+            "Birthplace": "Mexico",
+            "Census_night_population_count": 1539,
+            "Census_usually_resident_population_count": 1413
+        },
+        {
+            "Code": "8307",
+            "Birthplace": "Nicaragua",
+            "Census_night_population_count": 30,
+            "Census_usually_resident_population_count": 30
+        },
+        {
+            "Code": "8308",
+            "Birthplace": "Panama",
+            "Census_night_population_count": 54,
+            "Census_usually_resident_population_count": 51
+        },
+        {
+            "Code": "8400",
+            "Birthplace": "Caribbean (not further defined)",
+            "Census_night_population_count": 30,
+            "Census_usually_resident_population_count": 30
+        },
+        {
+            "Code": "8401",
+            "Birthplace": "Anguilla",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "8402",
+            "Birthplace": "Antigua and Barbuda",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "8403",
+            "Birthplace": "Aruba",
+            "Census_night_population_count": 15,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "8404",
+            "Birthplace": "Bahamas",
+            "Census_night_population_count": 51,
+            "Census_usually_resident_population_count": 51
+        },
+        {
+            "Code": "8405",
+            "Birthplace": "Barbados",
+            "Census_night_population_count": 183,
+            "Census_usually_resident_population_count": 177
+        },
+        {
+            "Code": "8406",
+            "Birthplace": "Cayman Islands",
+            "Census_night_population_count": 57,
+            "Census_usually_resident_population_count": 51
+        },
+        {
+            "Code": "8407",
+            "Birthplace": "Cuba",
+            "Census_night_population_count": 84,
+            "Census_usually_resident_population_count": 81
+        },
+        {
+            "Code": "8408",
+            "Birthplace": "Dominica",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 9
+        },
+        {
+            "Code": "8411",
+            "Birthplace": "Dominican Republic",
+            "Census_night_population_count": 45,
+            "Census_usually_resident_population_count": 45
+        },
+        {
+            "Code": "8412",
+            "Birthplace": "Grenada",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 9
+        },
+        {
+            "Code": "8413",
+            "Birthplace": "Guadeloupe",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 9
+        },
+        {
+            "Code": "8414",
+            "Birthplace": "Haiti",
+            "Census_night_population_count": 21,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "8415",
+            "Birthplace": "Jamaica",
+            "Census_night_population_count": 276,
+            "Census_usually_resident_population_count": 258
+        },
+        {
+            "Code": "8416",
+            "Birthplace": "Martinique",
+            "Census_night_population_count": 15,
+            "Census_usually_resident_population_count": 12
+        },
+        {
+            "Code": "8417",
+            "Birthplace": "Montserrat",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "8421",
+            "Birthplace": "Puerto Rico",
+            "Census_night_population_count": 39,
+            "Census_usually_resident_population_count": 36
+        },
+        {
+            "Code": "8422",
+            "Birthplace": "St Kitts and Nevis",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "8423",
+            "Birthplace": "St Lucia",
+            "Census_night_population_count": 24,
+            "Census_usually_resident_population_count": 21
+        },
+        {
+            "Code": "8424",
+            "Birthplace": "St Vincent and the Grenadines",
+            "Census_night_population_count": 24,
+            "Census_usually_resident_population_count": 24
+        },
+        {
+            "Code": "8425",
+            "Birthplace": "Trinidad and Tobago",
+            "Census_night_population_count": 240,
+            "Census_usually_resident_population_count": 222
+        },
+        {
+            "Code": "8426",
+            "Birthplace": "Turks and Caicos Islands",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "8427",
+            "Birthplace": "Virgin Islands, British",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 12
+        },
+        {
+            "Code": "8428",
+            "Birthplace": "Virgin Islands, United States",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "8433",
+            "Birthplace": "Curacao",
+            "Census_night_population_count": 48,
+            "Census_usually_resident_population_count": 42
+        },
+        {
+            "Code": "8434",
+            "Birthplace": "St Maarten (Dutch Part)",
+            "Census_night_population_count": 9,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "9000",
+            "Birthplace": "Sub-Saharan Africa (not further defined)",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "9100",
+            "Birthplace": "Central and West Africa (not further defined)",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 12
+        },
+        {
+            "Code": "9101",
+            "Birthplace": "Benin",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "9102",
+            "Birthplace": "Burkina Faso",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "9103",
+            "Birthplace": "Cameroon",
+            "Census_night_population_count": 60,
+            "Census_usually_resident_population_count": 54
+        },
+        {
+            "Code": "9104",
+            "Birthplace": "Cabo Verde",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "9105",
+            "Birthplace": "Central African Republic",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "9106",
+            "Birthplace": "Chad",
+            "Census_night_population_count": 9,
+            "Census_usually_resident_population_count": 9
+        },
+        {
+            "Code": "9107",
+            "Birthplace": "Congo",
+            "Census_night_population_count": 189,
+            "Census_usually_resident_population_count": 180
+        },
+        {
+            "Code": "9108",
+            "Birthplace": "Congo, the Democratic Republic of the",
+            "Census_night_population_count": 177,
+            "Census_usually_resident_population_count": 174
+        },
+        {
+            "Code": "9111",
+            "Birthplace": "Cï¿½te d'Ivoire",
+            "Census_night_population_count": 15,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "9112",
+            "Birthplace": "Equatorial Guinea",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "9113",
+            "Birthplace": "Gabon",
+            "Census_night_population_count": 18,
+            "Census_usually_resident_population_count": 18
+        },
+        {
+            "Code": "9114",
+            "Birthplace": "Gambia",
+            "Census_night_population_count": 15,
+            "Census_usually_resident_population_count": 12
+        },
+        {
+            "Code": "9115",
+            "Birthplace": "Ghana",
+            "Census_night_population_count": 441,
+            "Census_usually_resident_population_count": 432
+        },
+        {
+            "Code": "9116",
+            "Birthplace": "Guinea",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "9117",
+            "Birthplace": "Guinea-Bissau",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "9118",
+            "Birthplace": "Liberia",
+            "Census_night_population_count": 42,
+            "Census_usually_resident_population_count": 42
+        },
+        {
+            "Code": "9121",
+            "Birthplace": "Mali",
+            "Census_night_population_count": 12,
+            "Census_usually_resident_population_count": 9
+        },
+        {
+            "Code": "9122",
+            "Birthplace": "Mauritania",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "9123",
+            "Birthplace": "Niger",
+            "Census_night_population_count": 6,
+            "Census_usually_resident_population_count": 6
+        },
+        {
+            "Code": "9124",
+            "Birthplace": "Nigeria",
+            "Census_night_population_count": 996,
+            "Census_usually_resident_population_count": 987
+        },
+        {
+            "Code": "9125",
+            "Birthplace": "Sao Tome and Principe",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "9126",
+            "Birthplace": "Senegal",
+            "Census_night_population_count": 33,
+            "Census_usually_resident_population_count": 24
+        },
+        {
+            "Code": "9127",
+            "Birthplace": "Sierra Leone",
+            "Census_night_population_count": 51,
+            "Census_usually_resident_population_count": 51
+        },
+        {
+            "Code": "9128",
+            "Birthplace": "Togo",
+            "Census_night_population_count": 18,
+            "Census_usually_resident_population_count": 15
+        },
+        {
+            "Code": "9200",
+            "Birthplace": "Southern and East Africa (not further defined)",
+            "Census_night_population_count": 54,
+            "Census_usually_resident_population_count": 54
+        },
+        {
+            "Code": "9201",
+            "Birthplace": "Angola",
+            "Census_night_population_count": 36,
+            "Census_usually_resident_population_count": 30
+        },
+        {
+            "Code": "9202",
+            "Birthplace": "Botswana",
+            "Census_night_population_count": 201,
+            "Census_usually_resident_population_count": 201
+        },
+        {
+            "Code": "9203",
+            "Birthplace": "Burundi",
+            "Census_night_population_count": 129,
+            "Census_usually_resident_population_count": 126
+        },
+        {
+            "Code": "9204",
+            "Birthplace": "Comoros",
+            "Census_night_population_count": 3,
+            "Census_usually_resident_population_count": 3
+        },
+        {
+            "Code": "9205",
+            "Birthplace": "Djibouti",
+            "Census_night_population_count": 24,
+            "Census_usually_resident_population_count": 24
+        },
+        {
+            "Code": "9206",
+            "Birthplace": "Eritrea",
+            "Census_night_population_count": 279,
+            "Census_usually_resident_population_count": 279
+        },
+        {
+            "Code": "9207",
+            "Birthplace": "Ethiopia",
+            "Census_night_population_count": 1491,
+            "Census_usually_resident_population_count": 1479
+        },
+        {
+            "Code": "9208",
+            "Birthplace": "Kenya",
+            "Census_night_population_count": 1917,
+            "Census_usually_resident_population_count": 1869
+        },
+        {
+            "Code": "9211",
+            "Birthplace": "Lesotho",
+            "Census_night_population_count": 30,
+            "Census_usually_resident_population_count": 27
+        },
+        {
+            "Code": "9212",
+            "Birthplace": "Madagascar",
+            "Census_night_population_count": 45,
+            "Census_usually_resident_population_count": 36
+        },
+        {
+            "Code": "9213",
+            "Birthplace": "Malawi",
+            "Census_night_population_count": 249,
+            "Census_usually_resident_population_count": 240
+        },
+        {
+            "Code": "9214",
+            "Birthplace": "Mauritius",
+            "Census_night_population_count": 666,
+            "Census_usually_resident_population_count": 639
+        },
+        {
+            "Code": "9215",
+            "Birthplace": "Mayotte",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "9216",
+            "Birthplace": "Mozambique",
+            "Census_night_population_count": 117,
+            "Census_usually_resident_population_count": 120
+        },
+        {
+            "Code": "9217",
+            "Birthplace": "Namibia",
+            "Census_night_population_count": 540,
+            "Census_usually_resident_population_count": 534
+        },
+        {
+            "Code": "9218",
+            "Birthplace": "Reunion",
+            "Census_night_population_count": 30,
+            "Census_usually_resident_population_count": 27
+        },
+        {
+            "Code": "9221",
+            "Birthplace": "Rwanda",
+            "Census_night_population_count": 108,
+            "Census_usually_resident_population_count": 108
+        },
+        {
+            "Code": "9222",
+            "Birthplace": "St Helena",
+            "Census_night_population_count": 18,
+            "Census_usually_resident_population_count": 18
+        },
+        {
+            "Code": "9223",
+            "Birthplace": "Seychelles",
+            "Census_night_population_count": 105,
+            "Census_usually_resident_population_count": 96
+        },
+        {
+            "Code": "9224",
+            "Birthplace": "Somalia",
+            "Census_night_population_count": 1143,
+            "Census_usually_resident_population_count": 1134
+        },
+        {
+            "Code": "9225",
+            "Birthplace": "South Africa",
+            "Census_night_population_count": 72402,
+            "Census_usually_resident_population_count": 71382
+        },
+        {
+            "Code": "9226",
+            "Birthplace": "Eswatini",
+            "Census_night_population_count": 96,
+            "Census_usually_resident_population_count": 87
+        },
+        {
+            "Code": "9227",
+            "Birthplace": "Tanzania",
+            "Census_night_population_count": 477,
+            "Census_usually_resident_population_count": 462
+        },
+        {
+            "Code": "9228",
+            "Birthplace": "Uganda",
+            "Census_night_population_count": 417,
+            "Census_usually_resident_population_count": 393
+        },
+        {
+            "Code": "9231",
+            "Birthplace": "Zambia",
+            "Census_night_population_count": 1563,
+            "Census_usually_resident_population_count": 1536
+        },
+        {
+            "Code": "9232",
+            "Birthplace": "Zimbabwe",
+            "Census_night_population_count": 8817,
+            "Census_usually_resident_population_count": 8685
+        },
+        {
+            "Code": "9299",
+            "Birthplace": "Southern and East Africa nec",
+            "Census_night_population_count": 0,
+            "Census_usually_resident_population_count": 0
+        },
+        {
+            "Code": "0000",
+            "Birthplace": "Inadequately described",
+            "Census_night_population_count": 921,
+            "Census_usually_resident_population_count": 432
+        },
+        {
+            "Code": "9999",
+            "Birthplace": "Not stated",
+            "Census_night_population_count": 59376,
+            "Census_usually_resident_population_count": 57426
+        }
+    ]
 }
