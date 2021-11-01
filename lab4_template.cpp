@@ -115,9 +115,11 @@ int main(int argc, char const *argv[])
     Consumer con;
     Feed feed;
 
-    while (pro.produce(feed));
+    while (pro.produce(feed))
+        ;
 
-    while (con.consume(feed));
+    while (con.consume(feed))
+        ;
 
     con.report_status();
 
