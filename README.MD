@@ -1,3 +1,3 @@
 # UML-диаграмма разрабатываемой системы
 
-![diagram](https://github.com/AbsoluteVirtue/oop_2021/docs/master/diag_5.png?raw=true)
+![diagram](https://raw.githubusercontent.com/AbsoluteVirtue/oop_2021/master/docs/diag_5.png?raw=true)
