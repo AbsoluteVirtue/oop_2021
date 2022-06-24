@@ -1,3 +1,5 @@
+#define _MAIN_ false
+
 #include <assert.h>
 #include <stdio.h>
 
@@ -85,6 +87,7 @@ char * rstr(const rational & r, char * ret)
 
 #include <string.h>
 
+#if _MAIN_ 
 int main(int argc, char const *argv[])
 {
     rational a = cons(10, 20);
@@ -123,3 +126,4 @@ int main(int argc, char const *argv[])
     char tmp4[100] {};
     assert(!strcmp("12/37", rstr(d, tmp4)));
 }
+#endif
