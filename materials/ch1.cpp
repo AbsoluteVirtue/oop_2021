@@ -1,5 +1,3 @@
-#define _MAIN_ false
-
 #include <assert.h>
 #include <stdio.h>
 
@@ -14,7 +12,8 @@ rational cons(const int x, const int y)
     assert(y != 0);
 
     rational r;
-    if (x == 0) return {0, 0};
+    if (x == 0)
+        return {0, 0};
     if (y < 0)
     {
         r.p = -x;
@@ -39,10 +38,11 @@ int gcd(int __m, int __n)
     return __m;
 }
 
-void reduce(rational & r) 
+void reduce(rational &r)
 {
-    if (r.q == 1 || r.p == 0) return;
-    else 
+    if (r.q == 1 || r.p == 0)
+        return;
+    else
     {
         int d = gcd(abs(r.p), r.q);
         r.p /= d;
@@ -50,20 +50,20 @@ void reduce(rational & r)
     }
 }
 
-char * rstr(const rational & r, char * ret) 
+char *rstr(const rational &r, char *ret)
 {
     int i = 0;
 
-    auto f = [&] (int n)
+    auto f = [&](int n)
     {
-        char * start = ret + i;
-        while (n) 
+        char *start = ret + i;
+        while (n)
         {
             ret[i++] = (n % 10) + '0';
             n /= 10;
         }
 
-        char * end = ret + i - 1; 
+        char *end = ret + i - 1;
         while (start < end)
         {
             char tmp = *start;
@@ -77,7 +77,7 @@ char * rstr(const rational & r, char * ret)
 
     f(r.p);
     if (r.q > 1)
-    {    
+    {
         ret[i++] = '/';
         f(r.q);
     }
@@ -87,7 +87,6 @@ char * rstr(const rational & r, char * ret)
 
 #include <string.h>
 
-#if _MAIN_ 
 int main(int argc, char const *argv[])
 {
     rational a = cons(10, 20);
@@ -96,7 +95,7 @@ int main(int argc, char const *argv[])
     reduce(a);
     assert(a.p == 1 && a.q == 2);
 
-    char tmp1[100] {};
+    char tmp1[100]{};
     assert(!strcmp("1/2", rstr(a, tmp1)));
 
     rational b = cons(100, 20);
@@ -105,7 +104,7 @@ int main(int argc, char const *argv[])
     reduce(b);
     assert(b.p == 5 && b.q == 1);
 
-    char tmp2[100] {};
+    char tmp2[100]{};
     assert(!strcmp("5", rstr(b, tmp2)));
 
     rational c = cons(9, 6);
@@ -114,7 +113,7 @@ int main(int argc, char const *argv[])
     reduce(c);
     assert(c.p == 3 && c.q == 2);
 
-    char tmp3[100] {};
+    char tmp3[100]{};
     assert(!strcmp("3/2", rstr(c, tmp3)));
 
     rational d = cons(12, 37);
@@ -123,7 +122,6 @@ int main(int argc, char const *argv[])
     reduce(d);
     assert(d.p == 12 && d.q == 37);
 
-    char tmp4[100] {};
+    char tmp4[100]{};
     assert(!strcmp("12/37", rstr(d, tmp4)));
 }
-#endif
