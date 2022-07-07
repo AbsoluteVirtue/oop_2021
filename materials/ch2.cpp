@@ -13,16 +13,14 @@ int gcd(int m, int n)
 
 struct rational
 {
-    static void reduce(rational &r)
+    static rational reduce(rational &r)
     {
         if (r.q == 1 || r.p == 0)
-            return;
-        else
-        {
-            int d = gcd(abs(r.p), r.q);
-            r.p /= d;
-            r.q /= d;
-        }
+            return r;
+
+        int d = gcd(abs(r.p), r.q);
+        if (d == 1) return r;
+        return cons(r.p / d, r.q / d);
     }
 
     static rational cons(const int x, const int y)
@@ -45,8 +43,7 @@ struct rational
             r.p = x;
             r.q = y;
         }
-        reduce(r);
-        return r;
+        return reduce(r);
     }
 
     void set_p(int x)
@@ -61,6 +58,7 @@ struct rational
     }
 
     const int get_p() { return p; }
+
     const int get_q() { return q; }
 
 private:
@@ -71,11 +69,20 @@ private:
 int main(int argc, char const *argv[])
 {
     rational a = rational::cons(10, 50);
+    assert(1 == a.get_p() && 5 == a.get_q());
+
     a.set_p(15);
     a.set_q(45);
-    rational::reduce(a);
+    a = rational::reduce(a);
     assert(1 == a.get_p() && 3 == a.get_q());
 
-    rational b = rational::cons(10, 50);
-    assert(1 == b.get_p() && 5 == b.get_q());
+    rational b = rational::cons(20, 50);
+    assert(2 == b.get_p() && 5 == b.get_q());
+
+    // type punning example (for more, see https://youtu.be/HClSfuT2bFA)
+    int * p = (int*)&b;
+    int * q = p + 1;
+    *p = 5;
+    *q = 6;
+    assert(5 == b.get_p() && 6 == b.get_q());
 }
