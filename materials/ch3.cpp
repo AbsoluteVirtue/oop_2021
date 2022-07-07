@@ -25,16 +25,11 @@ struct rational
         }
     }
 
-    rational(const int x, const int y)
+    rational(const int x = 1, const int y = 1)
     {
         assert(y != 0);
 
-        if (x == 0)
-        {
-            p = 0;
-            q = 0;
-        }
-        else if (y < 0)
+        if (y < 0)
         {
             p = -x;
             q = -y;
@@ -44,7 +39,8 @@ struct rational
             p = x;
             q = y;
         }
-        reduce(*this);
+        if (x != 0)
+            reduce(*this);
     }
 
     void set_p(int x)
@@ -66,34 +62,34 @@ private:
     int q;
 };
 
-rational cons(rational & _this, const int x, const int y)
+void cons(rational * _this, const int x, const int y)
 {
     assert(y != 0);
 
     if (y < 0)
     {
-        _this.set_p(-x);
-        _this.set_q(-y);
+        _this->set_p(-x);
+        _this->set_q(-y);
     }
     else
     {
-        _this.set_p(x);
-        _this.set_q(y);
+        _this->set_p(x);
+        _this->set_q(y);
     }
 
-    if (x != 0) rational::reduce(_this);
-    return _this;
+    if (x != 0)
+        rational::reduce(*_this);
 }
 
 int main(int argc, char const *argv[])
 {
-    rational a(1, 1);
-    a = cons(a, 6, 9);
+    rational a;
+    cons(&a, 6, 9);
     assert(2 == a.get_p() && 3 == a.get_q());
 
     rational b(10, 50);
     assert(1 == b.get_p() && 5 == b.get_q());
 
-    rational c = rational(20, 30);
-    assert(2 == c.get_p() && 3 == c.get_q());
+    rational c = rational(9, 2);
+    assert(9 == c.get_p() && 2 == c.get_q());
 }
