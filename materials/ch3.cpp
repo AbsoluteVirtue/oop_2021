@@ -1,4 +1,6 @@
 #include <assert.h>
+#include <stdio.h>
+#include <string.h>
 
 int gcd(int m, int n)
 {
@@ -25,7 +27,9 @@ struct rational
         }
     }
 
-    rational(const int x = 1, const int y = 1)
+    rational() = delete;
+
+    rational(const int x, const int y)
     {
         assert(y != 0);
 
@@ -43,6 +47,22 @@ struct rational
             reduce(*this);
     }
 
+    rational(const rational & other) : p(other.p), q(other.q) {}
+
+    rational(const rational && other) {}
+
+    rational(const char * str)
+    {
+        int __p = 1, __q = 1;
+        if (sscanf(str, "%d/%d", &__p, &__q) >= 1)
+        {
+            p = __p;
+            q = __q;
+            if (p != 0)
+                reduce(*this);
+        } 
+    }
+
     void set_p(int x)
     {
         p = x;
@@ -58,8 +78,8 @@ struct rational
     const int get_q() { return q; }
 
 private:
-    int p;
-    int q;
+    int p{1};
+    int q{1};
 };
 
 void cons(rational * _this, const int x, const int y)
@@ -83,13 +103,21 @@ void cons(rational * _this, const int x, const int y)
 
 int main(int argc, char const *argv[])
 {
-    rational a;
-    cons(&a, 6, 9);
-    assert(2 == a.get_p() && 3 == a.get_q());
+    rational a(2, 3);
 
-    rational b(10, 50);
-    assert(1 == b.get_p() && 5 == b.get_q());
+    rational b(a); 
+    cons(&b, 6, 9);
+    assert(2 == b.get_p() && 3 == b.get_q());
 
     rational c = rational(9, 2);
     assert(9 == c.get_p() && 2 == c.get_q());
+
+    rational d(10, 50);
+    assert(1 == d.get_p() && 5 == d.get_q());
+
+    rational e("3/15");
+    assert(1 == e.get_p() && 5 == e.get_q());
+    
+    rational f("315");
+    assert(315 == f.get_p() && 1 == f.get_q());
 }
