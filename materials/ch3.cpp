@@ -1,6 +1,19 @@
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
+#include <utility>
+
+
+/**
+    *  @brief  Convert a value to an rvalue.
+    *  @param  __t  A thing of arbitrary type.
+    *  @return The parameter cast to an rvalue-reference to allow moving it.
+
+    template<typename _Tp>
+    constexpr typename std::remove_reference<_Tp>::type&&
+    move(_Tp&& __t) noexcept
+    { return static_cast<typename std::remove_reference<_Tp>::type&&>(__t); }
+*/
 
 int gcd(int m, int n)
 {
@@ -49,16 +62,20 @@ struct rational
 
     rational(const rational & other) : p(other.p), q(other.q) {}
 
-    rational(const rational && other) {}
+    rational(rational && other) : p(std::move(other.p)), q(std::move(other.q))
+    {
+        other.p = 1;
+        other.q = 1;
+    }
 
     rational(const char * str)
     {
         int __p = 1, __q = 1;
         if (sscanf(str, "%d/%d", &__p, &__q) >= 1)
         {
-            p = __p;
-            q = __q;
-            if (p != 0)
+            this->p = __p;
+            this->q = __q;
+            if (this->p != 0)
                 reduce(*this);
         } 
     }
@@ -120,4 +137,8 @@ int main(int argc, char const *argv[])
     
     rational f("315");
     assert(315 == f.get_p() && 1 == f.get_q());
+
+    rational g(std::move(e));
+    assert(1 == e.get_p() && 1 == e.get_q());
+    assert(1 == g.get_p() && 5 == g.get_q());
 }
