@@ -4,17 +4,6 @@
 #include <utility>
 
 
-/**
-    *  @brief  Convert a value to an rvalue.
-    *  @param  __t  A thing of arbitrary type.
-    *  @return The parameter cast to an rvalue-reference to allow moving it.
-
-    template<typename _Tp>
-    constexpr typename std::remove_reference<_Tp>::type&&
-    move(_Tp&& __t) noexcept
-    { return static_cast<typename std::remove_reference<_Tp>::type&&>(__t); }
-*/
-
 int gcd(int m, int n)
 {
     while (n != 0)
@@ -117,6 +106,7 @@ void cons(rational * _this, const int x, const int y)
     if (x != 0)
         rational::reduce(*_this);
 }
+
 
 int main(int argc, char const *argv[])
 {
