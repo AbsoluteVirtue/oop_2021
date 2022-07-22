@@ -102,74 +102,58 @@ struct rational
         return *this;
     }
 
-    bool eq(int __p, int __q)
+    bool operator==(const int x)
     {
-        return this->p == __p && this->q == __q;
+        return this->p == x && this->q == x;
     }
 
-    bool eq(const rational & other)
+    friend bool operator==(const int lhs, const rational & rhs)
+    {
+        return rhs.p == lhs && rhs.q == lhs;
+    }
+
+    bool operator==(const rational & other)
     {
         return this->p == other.p && this->q == other.q;
     }
 
-    bool gte(const rational & other)
+    bool operator!=(const rational & other)
     {
-        if (this->q == other.q)
-        {
-            return this->p > other.p || this->p == other.p;
-        }
-        else
-        {
-            int c = this->q * other.q;
-            // can't use constructors due to reduce function, causes infinite recursion loop
-            rational x, y;
-            x.p = this->p * other.q;
-            x.q = c;
-            y.p = other.p * this->q;
-            y.q = c;
-
-            return x.gte(y);
-        }
+        return !(*this == other);
     }
 
-    static bool t(const rational & lhs, const rational & rhs, bool (*f)(const rational & a, const rational & b))
-    {
-        int c = lhs.q * rhs.q;
-        // can't use constructors due to reduce function, causes infinite recursion loop
-        rational x, y;
-        x.p = lhs.p * rhs.q;
-        x.q = c;
-        y.p = rhs.p * lhs.q;
-        y.q = c;
-
-        return f(x, y);
-    }
-
-    static bool lte(const rational & lhs, const rational & rhs)
+    friend bool operator<(const rational & lhs, const rational & rhs)
     {
         if (lhs.q == rhs.q)
         {
-            return lhs.p < rhs.p || lhs.p == rhs.p;
+            return lhs.p < rhs.p;
         }
         else 
         {
-            return t(lhs, rhs, lte);
+            int c = lhs.q * rhs.q;
+            // can't use constructors due to reduce function, causes infinite recursion loop
+            rational x, y;
+            x.p = lhs.p * rhs.q;
+            x.q = c;
+            y.p = rhs.p * lhs.q;
+            y.q = c;
+            return x < y;
         }
     }
 
-    bool ne(const rational & other)
+    friend bool operator>(const rational & lhs, const rational & rhs)
     {
-        return !this->eq(other);
+        return rhs < lhs;
     }
 
-    bool gt(const rational & other)
+    friend bool operator>=(const rational & lhs, const rational & rhs)
     {
-        return !lte(*this, other);
+        return !(lhs < rhs);
     }
 
-    bool lt(const rational & other)
+    friend bool operator<=(const rational & lhs, const rational & rhs)
     {
-        return !(this->gte(other));
+        return !(rhs < lhs);
     }
 
 private:
@@ -188,10 +172,17 @@ int main(int argc, char const *argv[])
 {
     rational a(2, 3);
     rational b = std::move(a);
-    assert(a.eq(1, 1));
-    assert(b.eq(rational(2, 3)));
-    
+    assert(a == 1);
+    assert(1 == a);
+    assert(b == rational(2, 3));
+    assert(rational(2, 3) == b);
+
+    assert(a >= b);
+
     rational c(3, 4);
-    assert(b.lt(c));
-    assert(c.gt(b));
+    assert(b < c);
+    assert(c > b);
+
+    rational d(c);
+    assert(c <= d);
 }
